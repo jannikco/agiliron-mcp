@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "5049ddf0fab1e8afcd49bf3e6ede733f964a0955f9a62a5ff4d08db23ed45013",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.agiliron.com/reference/getting-started"
+  ],
+  "id": "agiliron-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Agiliron MCP setup and connection checker",
+  "description": "Generate Agiliron MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agiliron",
+  "appName": "Agiliron",
+  "providerDocs": "https://api.agiliron.com/reference/getting-started",
+  "providerWebsite": "https://www.agiliron.com/",
+  "authentication": {
+    "type": "api_key_query",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.agiliron.com/developers/",
+    "tenantRequired": true,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-agiliron-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
